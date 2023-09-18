@@ -1,2 +1,6 @@
 [submodule "cocos2d"]
 	path = cocos2d
+	url = git@github.com:kulaginwork/BingoCocos.git
+[submodule "resources"]
+	path = Resources
+	url = git@github.com:kulaginwork/BingoRes.git
