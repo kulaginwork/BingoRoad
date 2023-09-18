@@ -1,0 +1,2788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0CB65B12CF3C4473AA9CD956 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4C11439148CF4DE3A6267DCD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0405E0B6DA910F5D82E3E049 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F1985B0B0FF741739896C5E7 /* PBXTargetDependency */,
+				D745253F34F74450BF9A16E8 /* PBXTargetDependency */,
+				D935F445502F46B18C675ED0 /* PBXTargetDependency */,
+				7F8347017F2A442F9FDA37F0 /* PBXTargetDependency */,
+				B77347C5EA2D4FBE8EA01FE5 /* PBXTargetDependency */,
+				C745FA5FCB6A42AF811DD26C /* PBXTargetDependency */,
+				B74165E1FACC4E64B48D2EAE /* PBXTargetDependency */,
+				EABD814D8F6F489898C83739 /* PBXTargetDependency */,
+				0EF116D762374BB7903F4AA0 /* PBXTargetDependency */,
+				D2DD9F20E1C349C3AB3B6A23 /* PBXTargetDependency */,
+				1A9AC65ECE8647438F6ABA88 /* PBXTargetDependency */,
+				CCBBC9CF930B4A7FBB9E0A92 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		3AFD10A869BD49F09E20654D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D923C9B40A6441F98D44D49 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				EF194388F6471E3153B70FA9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		017348874EAC4CD096A0CEB3 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 12DB6B1E11BF4D78A0477D66 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/CMakeLists.txt */; };
+		06C848915EA04C36AF6B8E0B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = C9A43F87D39E47E8873A29B9 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		0EA9C232353945DDBC8DE3F8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 24C4C071CD8A438B82F25E47 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		107F6BCF0C94419FBF7EBF8C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = 4967681D843F4065BDA31920 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/clipper.cpp */; };
+		1BDE1EA02FAC4E60B930F2DD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = BE434AAC9BC747D3A6DE646A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		1C008EEF441842239A1E6E9B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 49909DE80D6946478D92F6BD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		253573CB32B04999B7C88563 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 38F96CAF4A3349F69D7CB3E8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		28D85876794A49F1A3AA01A5 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3376E7330AA8420DA3C8B43C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		32B381254B67489A88E5E6D8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 9A8C8C0AD33A4BDCA5995D16 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		32B8205E45604AFCA4E58B20 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = 0B6FB009BC41431DA915C957 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/common/shapes.cc */; };
+		3919085D43AF47E39FEE7F4A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 1CF3AF980060401AAA2F8067 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/xxhash.c */; };
+		3AB9C2E9F337484D8C5AC885 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 6768FDB302A24F3F8C8691E1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/unzip.cpp */; };
+		3D95D864396640BDA82B617A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = A57D33720A1C40C689A3EE87 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/xxtea.cpp */; };
+		3F0AA535945C48F1B6D2ECA2 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = A3B479AE9403488AB95D4E1D /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		447B2DBBD70741438014F29D /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C9EC334FB34140DB8881F483 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		48D5C47EC1254447A889CC52 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = AA31799AABCA4C83AF4DB39C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		4D1BDB2CFAF940D093333DEF /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = C06FE39238C947E08869A3A9 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		563B458F67B542088479EBC6 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = A1686AE6866F4AAA8EEB78DD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		5F58A88C80F047E88A51815E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 397214865F2C4312A96A695F /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		66F9EFB498B943048793E15A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 16C4B0FECDE74C0CA0E5674E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		678F25252EA84BE6A07E1C70 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = 9129F08222684D0588633BB1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		6D2B1CB88FBE45E582B6F2FB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 032E212EC2D740E99F57AA2C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/fastlz/fastlz.c */; };
+		6F3CF566B6FA4F6FBADDB32E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = D8BD700DA6644ABF9BDD8090 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		6F8F68CA93E64682A0E55FEE /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = 2B9A8457E3904804B4C48111 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/empty.cpp */; };
+		786198CF86BB439594059134 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 24BFF741B0DF40C2B22F2D24 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/CMakeLists.txt */; };
+		7CCEDDEAFB234BB08F002AE8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = 54BB0AFFD8184C33B5250C89 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi.cpp */; };
+		89E8A808E20B4AA6BF8AB04C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 091AA580061C45F8B779D9A0 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		8D6A1E8F46B34F07B903D855 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 051079B07F944B68913C3A3B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/CMakeLists.txt */; };
+		963171428B0E4A72B1B46ED0 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 7CAE9AE7A5574D128EAFA863 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		987251CD460B40BA97AEBE65 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 3AC93388A6E640AAB6F71639 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		A2B2CE6ECFF4497AB03C3EB1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 13FF58D7908344ACB22CAC2E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		AD87C3F7AA6D426B95BCD8E4 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = A4F5DDBD4D544DCEBE6EC800 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		AF342EAF785E4327B2CAE05B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8DC71CD451B846498E331A69 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/CMakeLists.txt */; };
+		B2D16A27BA474F65ACEBC516 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = FF6A92B3294548A28D14DE23 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		BCCEB94840724132A2BD950B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = EFFA0F52636F4F4DB733E2A1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		BDDD0F70F42E44DD97D7EBB4 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = 076693065D8A41D9AA47E348 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		C0D830D9AFE54705A8591A22 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 23C0EA4A45C24772A3DD4514 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		C2720D4A77014FA0A8B041C2 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4D454AE306B9426DBA427C46 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/CMakeLists.txt */; };
+		C987D7826C2D46F090F66CBB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = 86ABAF92CDE8424B8CB2EF5A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/md5.c */; };
+		CF0B4D64B9614870A9E0CE24 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8978AD4898C049D9B9B5E1D8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/CMakeLists.txt */; };
+		CF3FCC803B8948F7A82FB6A5 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0744F593FBCB4E8E9D7B5528 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/CMakeLists.txt */; };
+		D122A12FD9B6425D95308F7F /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = CC37B6D806084AABBB47B3A8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		E19383EBFBBC4ACFBA64635C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 28962C7F614D4F578010C585 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		ECCC8AFA3CE44AFCBBCD3D57 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E5C30396E6A74D149E622A4C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		EE4E52FBD5E34E0588F174F6 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = A69D0C69EBB640D29EB144CB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1D263E223C614133A7A9A193 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		2B403D54548046349944862F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		3B75B46B7CA9435F9489DE52 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D2246C766B3449EAAE7BE674 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		10318737C0A34E25BDD65228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671AAE71BC2143D58E506469;
+			remoteInfo = ext_xxtea;
+		};
+		13DDA70833B84CEABE333927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878A259623934782850A00A6;
+			remoteInfo = ext_edtaa3func;
+		};
+		15F954C6E3C541A8BBE95B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFD10A869BD49F09E20654D;
+			remoteInfo = ZERO_CHECK;
+		};
+		2A8DC2630035449184B60EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940B8C858137483BAEBFA9EA;
+			remoteInfo = ext_tinyxml2;
+		};
+		2AC9F68F34744052B4CAB6AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285B183A925941C582A206E3;
+			remoteInfo = ext_recast;
+		};
+		2FC5721EE19140DB901CD1EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E538D1DF384CD3819FC612;
+			remoteInfo = ext_md5;
+		};
+		3229AFC7CD0F4FA895FEDE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671AAE71BC2143D58E506469;
+			remoteInfo = ext_xxtea;
+		};
+		35FA93CAAE7A41BC960FB131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9263193C8F545F1A2875BBC;
+			remoteInfo = ext_poly2tri;
+		};
+		387E16AF1E6D410BBF563E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB496294B2D4639AACF5077;
+			remoteInfo = ext_xxhash;
+		};
+		3D3A0C7A606A4E1A8737D051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C263F7138D0E4C8985AC24B4;
+			remoteInfo = ext_unzip;
+		};
+		59B2F7531A404CD99A395531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11C0FFE8721444DC97146D18;
+			remoteInfo = ext_convertUTF;
+		};
+		6A1536ED1AAA4ECB82EA5750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 285B183A925941C582A206E3;
+			remoteInfo = ext_recast;
+		};
+		793AFFE50E854C298EF2DFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11C0FFE8721444DC97146D18;
+			remoteInfo = ext_convertUTF;
+		};
+		7FF81A203C774FFCA4C0EB5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFD10A869BD49F09E20654D;
+			remoteInfo = ZERO_CHECK;
+		};
+		86B6A1FD82704321B9CA7E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E538D1DF384CD3819FC612;
+			remoteInfo = ext_md5;
+		};
+		982E912FEE3248438FB2692C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D8647519BA479FA88B98A2;
+			remoteInfo = ext_clipper;
+		};
+		A4D1DE5283884797B3214EA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D8647519BA479FA88B98A2;
+			remoteInfo = ext_clipper;
+		};
+		A845FBB79FD94727BD99C0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878A259623934782850A00A6;
+			remoteInfo = ext_edtaa3func;
+		};
+		BB383876417D488DB45E6773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B6307A808446329FA18441;
+			remoteInfo = external;
+		};
+		D1C48C5B6A424E1B8E9DF209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C263F7138D0E4C8985AC24B4;
+			remoteInfo = ext_unzip;
+		};
+		DE820C9C67614963871D0E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EB496294B2D4639AACF5077;
+			remoteInfo = ext_xxhash;
+		};
+		E83BFFB2F487403A9C1D1227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9263193C8F545F1A2875BBC;
+			remoteInfo = ext_poly2tri;
+		};
+		E9FDCB5CC0BF47588A5E26B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8129C2BF1F6D4FA58E40426E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940B8C858137483BAEBFA9EA;
+			remoteInfo = ext_tinyxml2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032E212EC2D740E99F57AA2C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		051079B07F944B68913C3A3B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0744F593FBCB4E8E9D7B5528 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		076693065D8A41D9AA47E348 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		091AA580061C45F8B779D9A0 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		0B6FB009BC41431DA915C957 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		12DB6B1E11BF4D78A0477D66 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		13FF58D7908344ACB22CAC2E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		16C4B0FECDE74C0CA0E5674E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		1CF3AF980060401AAA2F8067 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		22D17AED75E840A8B88C4098 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C0EA4A45C24772A3DD4514 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		24BFF741B0DF40C2B22F2D24 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24C4C071CD8A438B82F25E47 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		28962C7F614D4F578010C585 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		2B9A8457E3904804B4C48111 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		2CAB9387B7DA4F3CB029BD1C /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3376E7330AA8420DA3C8B43C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		38F96CAF4A3349F69D7CB3E8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		397214865F2C4312A96A695F /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3AC93388A6E640AAB6F71639 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		4967681D843F4065BDA31920 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		49909DE80D6946478D92F6BD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		4D454AE306B9426DBA427C46 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E10F2FE3B9445508ED2901A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		54BB0AFFD8184C33B5250C89 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		5518CBC7EE344DC8852822E3 /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6768FDB302A24F3F8C8691E1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		772C4BEBA32B46269FDB3CA6 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAE9AE7A5574D128EAFA863 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		86ABAF92CDE8424B8CB2EF5A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		8978AD4898C049D9B9B5E1D8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D2760B2E2144C2B8760DA96 /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC71CD451B846498E331A69 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9129F08222684D0588633BB1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		9A8C8C0AD33A4BDCA5995D16 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		A1686AE6866F4AAA8EEB78DD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		A3B479AE9403488AB95D4E1D /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		A4F5DDBD4D544DCEBE6EC800 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		A57D33720A1C40C689A3EE87 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		A69D0C69EBB640D29EB144CB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		A8CCFB16777C49E4A933E81E /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA31799AABCA4C83AF4DB39C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		B10869633C5149FE90EA5057 /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2811EA2EEA042B08CBC7C0C /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE434AAC9BC747D3A6DE646A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		BF15CACA3C1F4BA4BF57343A /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06FE39238C947E08869A3A9 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		C9A43F87D39E47E8873A29B9 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		C9EC334FB34140DB8881F483 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CC37B6D806084AABBB47B3A8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		D82C7B3201DA4A2485C9FC33 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BD700DA6644ABF9BDD8090 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		E5C30396E6A74D149E622A4C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EBD94332DB9B4EDFB6717309 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFA0F52636F4F4DB733E2A1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		FF6A92B3294548A28D14DE23 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111A9DF2A0234B27AD5FA01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		208F5142FE9D4DFA8A6B0DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B25FEFDB564B25BB407394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390007EE6B2B4243B3BFB70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6B071EBAD149B6BD2081E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6209FBF7EF8145C099F4CF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667B8FCD0C79449088BC4070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760578A0DB2C48ED9B2D5599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814AF491EAD54B5F8ED1A7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B85C8F284C4C459C3B35FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFC314C86AA4FF8A1921937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0349EE5D013F4BBDBBE1D6A9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A8457E3904804B4C48111 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0A52BC39D35746A6BCB8680D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B53BD6903B1401BBB1270EB /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				5689B2F4429A4B28AA77CBFE /* Source Files */,
+				3376E7330AA8420DA3C8B43C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		0D793F47090640218E24A1C5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A88F193F559543909991C9FC /* CMake Rules */,
+				4E10F2FE3B9445508ED2901A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2839831C666C49D0A5668B66 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A57D33720A1C40C689A3EE87 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		352D37BB93144376BA6BEA88 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				51586F9FD46D4F1DA8334291 /* Source Files */,
+				12DB6B1E11BF4D78A0477D66 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		3998A4233B8F4426A6036699 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA31799AABCA4C83AF4DB39C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				C06FE39238C947E08869A3A9 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				9A8C8C0AD33A4BDCA5995D16 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				9129F08222684D0588633BB1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				A1686AE6866F4AAA8EEB78DD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				13FF58D7908344ACB22CAC2E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				C9A43F87D39E47E8873A29B9 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				A4F5DDBD4D544DCEBE6EC800 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				49909DE80D6946478D92F6BD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				BE434AAC9BC747D3A6DE646A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				38F96CAF4A3349F69D7CB3E8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				23C0EA4A45C24772A3DD4514 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				FF6A92B3294548A28D14DE23 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				16C4B0FECDE74C0CA0E5674E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				24C4C071CD8A438B82F25E47 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				7CAE9AE7A5574D128EAFA863 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				032E212EC2D740E99F57AA2C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		44E93DD94628452DAE96E940 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8D6FE93B86214CEDBE56D9BD /* external */,
+				562F5EA12864460A83E2BB70 /* ext_recast */,
+				BB0A74F45A9C4368BE37DE12 /* ext_tinyxml2 */,
+				A499FA57FD6540D388811DF9 /* ext_xxhash */,
+				EEA5CD62F255434EB8F78227 /* ext_xxtea */,
+				E096309DF7A84F87B1AD84B6 /* ext_clipper */,
+				8906AC1941554E3E9A0BF5D5 /* ext_edtaa3func */,
+				D081E75789BA4BF3A0FEC235 /* ext_convertUTF */,
+				0B53BD6903B1401BBB1270EB /* ext_poly2tri */,
+				8799731B738049F4A23D983A /* ext_md5 */,
+				352D37BB93144376BA6BEA88 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		494FABF6D5804538B5723A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D17AED75E840A8B88C4098 /* ext_clipper */,
+				2CAB9387B7DA4F3CB029BD1C /* ext_convertUTF */,
+				EBD94332DB9B4EDFB6717309 /* ext_edtaa3func */,
+				B10869633C5149FE90EA5057 /* ext_md5 */,
+				8D2760B2E2144C2B8760DA96 /* ext_poly2tri */,
+				A8CCFB16777C49E4A933E81E /* ext_recast */,
+				5518CBC7EE344DC8852822E3 /* ext_tinyxml2 */,
+				772C4BEBA32B46269FDB3CA6 /* ext_unzip */,
+				B2811EA2EEA042B08CBC7C0C /* ext_xxhash */,
+				D82C7B3201DA4A2485C9FC33 /* ext_xxtea */,
+				BF15CACA3C1F4BA4BF57343A /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51586F9FD46D4F1DA8334291 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				54BB0AFFD8184C33B5250C89 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi.cpp */,
+				091AA580061C45F8B779D9A0 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi_mem.cpp */,
+				6768FDB302A24F3F8C8691E1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		562F5EA12864460A83E2BB70 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				3998A4233B8F4426A6036699 /* Source Files */,
+				8DC71CD451B846498E331A69 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		5689B2F4429A4B28AA77CBFE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B6FB009BC41431DA915C957 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/common/shapes.cc */,
+				076693065D8A41D9AA47E348 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				28962C7F614D4F578010C585 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				EFFA0F52636F4F4DB733E2A1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				A69D0C69EBB640D29EB144CB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6A99B807AE4143EC9DDE4A51 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF3AF980060401AAA2F8067 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8799731B738049F4A23D983A /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				D88B207ABF994C2DAEF04DD3 /* Source Files */,
+				051079B07F944B68913C3A3B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		88E2CFC65F254B91A2914B85 = {
+			isa = PBXGroup;
+			children = (
+				44E93DD94628452DAE96E940 /* External */,
+				0D793F47090640218E24A1C5 /* ALL_BUILD */,
+				494FABF6D5804538B5723A16 /* Products */,
+				0A52BC39D35746A6BCB8680D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8906AC1941554E3E9A0BF5D5 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				C29379162DD342A0AE46C8EF /* Source Files */,
+				E5C30396E6A74D149E622A4C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		8D6FE93B86214CEDBE56D9BD /* external */ = {
+			isa = PBXGroup;
+			children = (
+				0349EE5D013F4BBDBBE1D6A9 /* Source Files */,
+				4D454AE306B9426DBA427C46 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		9EBF33F907624E7584FC0707 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4967681D843F4065BDA31920 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A499FA57FD6540D388811DF9 /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				6A99B807AE4143EC9DDE4A51 /* Source Files */,
+				8978AD4898C049D9B9B5E1D8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		A88F193F559543909991C9FC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BB0A74F45A9C4368BE37DE12 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				F783070BD2F14E6D9D0F9C65 /* Source Files */,
+				C9EC334FB34140DB8881F483 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		BC3579061FCF446D8B7531C1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD700DA6644ABF9BDD8090 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				3AC93388A6E640AAB6F71639 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C29379162DD342A0AE46C8EF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC37B6D806084AABBB47B3A8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D081E75789BA4BF3A0FEC235 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				BC3579061FCF446D8B7531C1 /* Source Files */,
+				397214865F2C4312A96A695F /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		D88B207ABF994C2DAEF04DD3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				86ABAF92CDE8424B8CB2EF5A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E096309DF7A84F87B1AD84B6 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF33F907624E7584FC0707 /* Source Files */,
+				24BFF741B0DF40C2B22F2D24 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		EEA5CD62F255434EB8F78227 /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				2839831C666C49D0A5668B66 /* Source Files */,
+				0744F593FBCB4E8E9D7B5528 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		F783070BD2F14E6D9D0F9C65 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B479AE9403488AB95D4E1D /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11C0FFE8721444DC97146D18 /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A6D34613B64B4594BD53A6 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				AFFA49BF2F6741628F67B84D /* Sources */,
+				814AF491EAD54B5F8ED1A7D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 2CAB9387B7DA4F3CB029BD1C /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		285B183A925941C582A206E3 /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B4CB047DBC4120BC9892D9 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				EF2C7D04ADFB461282E211C8 /* Sources */,
+				111A9DF2A0234B27AD5FA01E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = A8CCFB16777C49E4A933E81E /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47B6307A808446329FA18441 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5907143E44604B958D9F3463 /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				FEC0EE03D830428C9718B473 /* Sources */,
+				26B25FEFDB564B25BB407394 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B8BEB060FA40FCBA9CCF41 /* PBXTargetDependency */,
+				49DA8DBF6BD74EA797D6A3E7 /* PBXTargetDependency */,
+				26A765291C9E418F8079C0E2 /* PBXTargetDependency */,
+				5AF09393076245CBB98F752A /* PBXTargetDependency */,
+				8FE0542A275144B49B943987 /* PBXTargetDependency */,
+				7BA4A8D443334646A300CC9D /* PBXTargetDependency */,
+				4D0CDB4B67D34A9BBB84C193 /* PBXTargetDependency */,
+				192304E993F448968094E09A /* PBXTargetDependency */,
+				BE1809AC9A724D309D6D6CD6 /* PBXTargetDependency */,
+				8FB55F238FAD4567B171D1AF /* PBXTargetDependency */,
+				B1B32EB48076417FA550C851 /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = BF15CACA3C1F4BA4BF57343A /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		671AAE71BC2143D58E506469 /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834E559313E342019FFD353E /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				AA0AE78BA9054C9E81F1045D /* Sources */,
+				BFFC314C86AA4FF8A1921937 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = D82C7B3201DA4A2485C9FC33 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7EB496294B2D4639AACF5077 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B6014B6A2448D3831D64BB /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				394F3A3D400145A490E05B78 /* Sources */,
+				390007EE6B2B4243B3BFB70F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = B2811EA2EEA042B08CBC7C0C /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		83E538D1DF384CD3819FC612 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA375B0F5AFD4C0BBB3A72C1 /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				048A562F71924992968767E4 /* Sources */,
+				667B8FCD0C79449088BC4070 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = B10869633C5149FE90EA5057 /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		878A259623934782850A00A6 /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EE2AB512A64AAFA49E437A /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				0D80A5FAF46B4BF88D24D946 /* Sources */,
+				91B85C8F284C4C459C3B35FB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = EBD94332DB9B4EDFB6717309 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		940B8C858137483BAEBFA9EA /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D9263133EA4AB389BC1F3A /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				4800809AEB7C4A949A9F4A0C /* Sources */,
+				208F5142FE9D4DFA8A6B0DDA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 5518CBC7EE344DC8852822E3 /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9D8647519BA479FA88B98A2 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA62C10CD67E4BB29A76BA5F /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				39FD4B776F2541979D2EBD98 /* Sources */,
+				760578A0DB2C48ED9B2D5599 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 22D17AED75E840A8B88C4098 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C263F7138D0E4C8985AC24B4 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A8DF1F5DBD4A67987FC72D /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				6D334897AD834F2BBAB4245F /* Sources */,
+				3E6B071EBAD149B6BD2081E4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = 772C4BEBA32B46269FDB3CA6 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9263193C8F545F1A2875BBC /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08684042253F410FB162A7AB /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				E07742A6CBB1403895CFA98B /* Sources */,
+				6209FBF7EF8145C099F4CF62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = 8D2760B2E2144C2B8760DA96 /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8129C2BF1F6D4FA58E40426E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1410;
+			};
+			buildConfigurationList = 13D262685D9840F698C23B87 /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3B75B46B7CA9435F9489DE52 /* Debug */,
+				1D263E223C614133A7A9A193 /* Release */,
+				2B403D54548046349944862F /* MinSizeRel */,
+				D2246C766B3449EAAE7BE674 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 88E2CFC65F254B91A2914B85;
+			projectDirPath = /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external;
+			projectRoot = "";
+			targets = (
+				0CB65B12CF3C4473AA9CD956 /* ALL_BUILD */,
+				3AFD10A869BD49F09E20654D /* ZERO_CHECK */,
+				A9D8647519BA479FA88B98A2 /* ext_clipper */,
+				11C0FFE8721444DC97146D18 /* ext_convertUTF */,
+				878A259623934782850A00A6 /* ext_edtaa3func */,
+				83E538D1DF384CD3819FC612 /* ext_md5 */,
+				D9263193C8F545F1A2875BBC /* ext_poly2tri */,
+				285B183A925941C582A206E3 /* ext_recast */,
+				940B8C858137483BAEBFA9EA /* ext_tinyxml2 */,
+				C263F7138D0E4C8985AC24B4 /* ext_unzip */,
+				7EB496294B2D4639AACF5077 /* ext_xxhash */,
+				671AAE71BC2143D58E506469 /* ext_xxtea */,
+				47B6307A808446329FA18441 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0405E0B6DA910F5D82E3E049 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EF194388F6471E3153B70FA9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  make -f /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  make -f /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  make -f /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external
+  make -f /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048A562F71924992968767E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C987D7826C2D46F090F66CBB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D80A5FAF46B4BF88D24D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D122A12FD9B6425D95308F7F /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394F3A3D400145A490E05B78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3919085D43AF47E39FEE7F4A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FD4B776F2541979D2EBD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F6BCF0C94419FBF7EBF8C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4800809AEB7C4A949A9F4A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0AA535945C48F1B6D2ECA2 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D334897AD834F2BBAB4245F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCEDDEAFB234BB08F002AE8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi.cpp */,
+				89E8A808E20B4AA6BF8AB04C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/ioapi_mem.cpp */,
+				3AB9C2E9F337484D8C5AC885 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0AE78BA9054C9E81F1045D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D95D864396640BDA82B617A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA49BF2F6741628F67B84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3CF566B6FA4F6FBADDB32E /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				987251CD460B40BA97AEBE65 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07742A6CBB1403895CFA98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B8205E45604AFCA4E58B20 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/common/shapes.cc */,
+				BDDD0F70F42E44DD97D7EBB4 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				E19383EBFBBC4ACFBA64635C /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				BCCEB94840724132A2BD950B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				EE4E52FBD5E34E0588F174F6 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C7D04ADFB461282E211C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D5C47EC1254447A889CC52 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				4D1BDB2CFAF940D093333DEF /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				32B381254B67489A88E5E6D8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				678F25252EA84BE6A07E1C70 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				563B458F67B542088479EBC6 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				A2B2CE6ECFF4497AB03C3EB1 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				06C848915EA04C36AF6B8E0B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				AD87C3F7AA6D426B95BCD8E4 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				1C008EEF441842239A1E6E9B /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				1BDE1EA02FAC4E60B930F2DD /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				253573CB32B04999B7C88563 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				C0D830D9AFE54705A8591A22 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				B2D16A27BA474F65ACEBC516 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				66F9EFB498B943048793E15A /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				0EA9C232353945DDBC8DE3F8 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				963171428B0E4A72B1B46ED0 /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				6D2B1CB88FBE45E582B6F2FB /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEC0EE03D830428C9718B473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8F68CA93E64682A0E55FEE /* /Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EF116D762374BB7903F4AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9263193C8F545F1A2875BBC /* ext_poly2tri */;
+			targetProxy = 35FA93CAAE7A41BC960FB131 /* PBXContainerItemProxy */;
+		};
+		192304E993F448968094E09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9263193C8F545F1A2875BBC /* ext_poly2tri */;
+			targetProxy = E83BFFB2F487403A9C1D1227 /* PBXContainerItemProxy */;
+		};
+		1A9AC65ECE8647438F6ABA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C263F7138D0E4C8985AC24B4 /* ext_unzip */;
+			targetProxy = 3D3A0C7A606A4E1A8737D051 /* PBXContainerItemProxy */;
+		};
+		26A765291C9E418F8079C0E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB496294B2D4639AACF5077 /* ext_xxhash */;
+			targetProxy = DE820C9C67614963871D0E3A /* PBXContainerItemProxy */;
+		};
+		49DA8DBF6BD74EA797D6A3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940B8C858137483BAEBFA9EA /* ext_tinyxml2 */;
+			targetProxy = 2A8DC2630035449184B60EA9 /* PBXContainerItemProxy */;
+		};
+		4D0CDB4B67D34A9BBB84C193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11C0FFE8721444DC97146D18 /* ext_convertUTF */;
+			targetProxy = 793AFFE50E854C298EF2DFB2 /* PBXContainerItemProxy */;
+		};
+		5AF09393076245CBB98F752A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671AAE71BC2143D58E506469 /* ext_xxtea */;
+			targetProxy = 10318737C0A34E25BDD65228 /* PBXContainerItemProxy */;
+		};
+		7BA4A8D443334646A300CC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878A259623934782850A00A6 /* ext_edtaa3func */;
+			targetProxy = 13DDA70833B84CEABE333927 /* PBXContainerItemProxy */;
+		};
+		7F8347017F2A442F9FDA37F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EB496294B2D4639AACF5077 /* ext_xxhash */;
+			targetProxy = 387E16AF1E6D410BBF563E3A /* PBXContainerItemProxy */;
+		};
+		8FB55F238FAD4567B171D1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C263F7138D0E4C8985AC24B4 /* ext_unzip */;
+			targetProxy = D1C48C5B6A424E1B8E9DF209 /* PBXContainerItemProxy */;
+		};
+		8FE0542A275144B49B943987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D8647519BA479FA88B98A2 /* ext_clipper */;
+			targetProxy = A4D1DE5283884797B3214EA5 /* PBXContainerItemProxy */;
+		};
+		99B8BEB060FA40FCBA9CCF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285B183A925941C582A206E3 /* ext_recast */;
+			targetProxy = 2AC9F68F34744052B4CAB6AD /* PBXContainerItemProxy */;
+		};
+		B1B32EB48076417FA550C851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFD10A869BD49F09E20654D /* ZERO_CHECK */;
+			targetProxy = 15F954C6E3C541A8BBE95B65 /* PBXContainerItemProxy */;
+		};
+		B74165E1FACC4E64B48D2EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878A259623934782850A00A6 /* ext_edtaa3func */;
+			targetProxy = A845FBB79FD94727BD99C0B5 /* PBXContainerItemProxy */;
+		};
+		B77347C5EA2D4FBE8EA01FE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671AAE71BC2143D58E506469 /* ext_xxtea */;
+			targetProxy = 3229AFC7CD0F4FA895FEDE6D /* PBXContainerItemProxy */;
+		};
+		BE1809AC9A724D309D6D6CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E538D1DF384CD3819FC612 /* ext_md5 */;
+			targetProxy = 86B6A1FD82704321B9CA7E8B /* PBXContainerItemProxy */;
+		};
+		C745FA5FCB6A42AF811DD26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D8647519BA479FA88B98A2 /* ext_clipper */;
+			targetProxy = 982E912FEE3248438FB2692C /* PBXContainerItemProxy */;
+		};
+		CCBBC9CF930B4A7FBB9E0A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFD10A869BD49F09E20654D /* ZERO_CHECK */;
+			targetProxy = 7FF81A203C774FFCA4C0EB5A /* PBXContainerItemProxy */;
+		};
+		D2DD9F20E1C349C3AB3B6A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E538D1DF384CD3819FC612 /* ext_md5 */;
+			targetProxy = 2FC5721EE19140DB901CD1EE /* PBXContainerItemProxy */;
+		};
+		D745253F34F74450BF9A16E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 285B183A925941C582A206E3 /* ext_recast */;
+			targetProxy = 6A1536ED1AAA4ECB82EA5750 /* PBXContainerItemProxy */;
+		};
+		D935F445502F46B18C675ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940B8C858137483BAEBFA9EA /* ext_tinyxml2 */;
+			targetProxy = E9FDCB5CC0BF47588A5E26B2 /* PBXContainerItemProxy */;
+		};
+		EABD814D8F6F489898C83739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11C0FFE8721444DC97146D18 /* ext_convertUTF */;
+			targetProxy = 59B2F7531A404CD99A395531 /* PBXContainerItemProxy */;
+		};
+		F1985B0B0FF741739896C5E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B6307A808446329FA18441 /* external */;
+			targetProxy = BB383876417D488DB45E6773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F3B4EBBDFC40719B92CD33 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		07E7A28ABC5D4960B96FC8C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0AA487C9D69F4A9CA621FF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0E883B3BC3A141DCAF792F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		123EB0960F4A4C0E9C539216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		12CA482ED60144C6ADB8E986 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		22DBFD13682647CEA60847EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build;
+			};
+			name = Release;
+		};
+		26472DB2A3F647F4996DA7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		264B9C8620F642119DBB4AF4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2DA8E125F37E44F6B5B7BD85 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		34EBB24248E64DC78557AB8F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3846933EEE73498084C82A27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3ABB22DAC56F4E1CA1E6186F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3FB885F97CE2422999B3EAFC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4404A2C7806446289CC61BE5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4440600788FA4BC7ADD785D8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		55D18C8B57304BD89BAB8A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5C94E19BC7064AB3A6EF1EAA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		69F34241F1BC43409AE23330 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		72598EA358604CEEA7A35357 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/Box2D/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/chipmunk/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/freetype2/include/mac/freetype2,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include/bullet,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/jpeg/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/openssl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/uv/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/webp/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/websockets/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/curl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/png/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glfw3/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		73DD5DD0A0EB48A0A126D0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		73FEE88DDAFA45D99C0D48B1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		741F607AC2F34A83A36D3A1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B8800710B634B28BBB8CF13 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7C66056F44B64E24A1BB4828 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		86BA58495D0449C589C8B62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxhash.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8B9EF421A5804FF1A0464C35 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9067BD776B6B4F418F08B4E6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		95F14C4C96BF434BB38DBE92 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_poly2tri.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9956BCE0994246B8B03902C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9D0A747372514AC7BE5FF5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A0F9C93B54C140B58C39E61F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/Box2D/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/chipmunk/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/freetype2/include/mac/freetype2,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include/bullet,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/jpeg/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/openssl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/uv/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/webp/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/websockets/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/curl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/png/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glfw3/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A22B2943F6534702B51CF45A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build;
+			};
+			name = Debug;
+		};
+		A60850F411FD4B98BC8AAEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AADC4B38B23D4F9699D5131B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B183E4BAF844497DBD28B555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BAC51E30E47A48F19CFE197B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB37F138B2F943E5B7881C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/Box2D/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/chipmunk/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/freetype2/include/mac/freetype2,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include/bullet,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/jpeg/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/openssl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/uv/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/webp/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/websockets/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/curl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/png/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glfw3/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BC6C462AA32448DAA0AD2D6E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BF3021CD1240417BA1CD6AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C7C974D615404CEBBF096ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_edtaa3func.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C8908689C9534CC5B9E058F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_md5.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C8FD0683752842709BABF4FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build;
+			};
+			name = MinSizeRel;
+		};
+		CB45E90CC99C4713BAFF5E3E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_clipper.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC262E92DD3B4DF58F30F9DF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk;
+				SYMROOT = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CD36E2312C374A53BA041E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D52E73EEBFA7446DBDC7E2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_convertUTF.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D71F09E86B5F4D29B91B43A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D72DCFFF928E4D6BA2DD1BAB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D73E93F4A3384B78B3FC5B5C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DE547308A21245DE984F5370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_tinyxml2.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ECF9177F372F49BE954DA433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_recast.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ED4C82D17F2C4B50B51F983A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_xxtea.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ED5F96E05DC84480A7E26254 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/recast/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/tinyxml2/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxhash/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/xxtea/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/clipper/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/edtaa3func/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/ConvertUTF/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/poly2tri/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/md5/..,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/Box2D/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/chipmunk/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/freetype2/include/mac/freetype2,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/bullet/include/bullet,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/jpeg/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/openssl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/uv/include,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/webp/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/websockets/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/curl/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/png/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glfw3/include/mac,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/external.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F57DDBFCABDE4E52AE8D1792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/andrewadmin/Projects/bingo/bingo_road/build_mac/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/unzip/.,/Users/andrewadmin/Projects/bingo/bingo_road/cocos2d/external/zlib/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/andrewadmin/Projects/bingo/bingo_road/build_mac/build/ext_unzip.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F64109E48C2B4AA5B4B7462A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08684042253F410FB162A7AB /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C66056F44B64E24A1BB4828 /* Debug */,
+				26472DB2A3F647F4996DA7A1 /* Release */,
+				95F14C4C96BF434BB38DBE92 /* MinSizeRel */,
+				8B9EF421A5804FF1A0464C35 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		11B4CB047DBC4120BC9892D9 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF9177F372F49BE954DA433 /* Debug */,
+				A60850F411FD4B98BC8AAEAD /* Release */,
+				D72DCFFF928E4D6BA2DD1BAB /* MinSizeRel */,
+				69F34241F1BC43409AE23330 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13D262685D9840F698C23B87 /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22B2943F6534702B51CF45A /* Debug */,
+				22DBFD13682647CEA60847EA /* Release */,
+				C8FD0683752842709BABF4FC /* MinSizeRel */,
+				CC262E92DD3B4DF58F30F9DF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		25EE2AB512A64AAFA49E437A /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123EB0960F4A4C0E9C539216 /* Debug */,
+				C7C974D615404CEBBF096ECD /* Release */,
+				BAC51E30E47A48F19CFE197B /* MinSizeRel */,
+				7B8800710B634B28BBB8CF13 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C11439148CF4DE3A6267DCD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADC4B38B23D4F9699D5131B /* Debug */,
+				9D0A747372514AC7BE5FF5BB /* Release */,
+				9067BD776B6B4F418F08B4E6 /* MinSizeRel */,
+				3846933EEE73498084C82A27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D923C9B40A6441F98D44D49 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64109E48C2B4AA5B4B7462A /* Debug */,
+				D71F09E86B5F4D29B91B43A3 /* Release */,
+				4440600788FA4BC7ADD785D8 /* MinSizeRel */,
+				12CA482ED60144C6ADB8E986 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5907143E44604B958D9F3463 /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB37F138B2F943E5B7881C23 /* Debug */,
+				A0F9C93B54C140B58C39E61F /* Release */,
+				ED5F96E05DC84480A7E26254 /* MinSizeRel */,
+				72598EA358604CEEA7A35357 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		71A6D34613B64B4594BD53A6 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E883B3BC3A141DCAF792F8B /* Debug */,
+				D52E73EEBFA7446DBDC7E2C6 /* Release */,
+				2DA8E125F37E44F6B5B7BD85 /* MinSizeRel */,
+				03F3B4EBBDFC40719B92CD33 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		834E559313E342019FFD353E /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD36E2312C374A53BA041E65 /* Debug */,
+				55D18C8B57304BD89BAB8A9B /* Release */,
+				D73E93F4A3384B78B3FC5B5C /* MinSizeRel */,
+				ED4C82D17F2C4B50B51F983A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0D9263133EA4AB389BC1F3A /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA487C9D69F4A9CA621FF95 /* Debug */,
+				DE547308A21245DE984F5370 /* Release */,
+				741F607AC2F34A83A36D3A1E /* MinSizeRel */,
+				3FB885F97CE2422999B3EAFC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA375B0F5AFD4C0BBB3A72C1 /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8908689C9534CC5B9E058F8 /* Debug */,
+				BF3021CD1240417BA1CD6AE4 /* Release */,
+				BC6C462AA32448DAA0AD2D6E /* MinSizeRel */,
+				5C94E19BC7064AB3A6EF1EAA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CA62C10CD67E4BB29A76BA5F /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183E4BAF844497DBD28B555 /* Debug */,
+				73DD5DD0A0EB48A0A126D0EA /* Release */,
+				CB45E90CC99C4713BAFF5E3E /* MinSizeRel */,
+				264B9C8620F642119DBB4AF4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9B6014B6A2448D3831D64BB /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86BA58495D0449C589C8B62E /* Debug */,
+				3ABB22DAC56F4E1CA1E6186F /* Release */,
+				73FEE88DDAFA45D99C0D48B1 /* MinSizeRel */,
+				4404A2C7806446289CC61BE5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1A8DF1F5DBD4A67987FC72D /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E7A28ABC5D4960B96FC8C6 /* Debug */,
+				F57DDBFCABDE4E52AE8D1792 /* Release */,
+				34EBB24248E64DC78557AB8F /* MinSizeRel */,
+				9956BCE0994246B8B03902C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8129C2BF1F6D4FA58E40426E /* Project object */;
+}

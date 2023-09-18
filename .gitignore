@@ -1,0 +1,9 @@
+__pycache__/
+.DS_Store
+.idea
+/.vscode/ipch/
+/build/
+/cmake-build-debug/
+/proj.android-studio/*/*.iml
+/proj.android-studio/*.iml
+/assets/GameData/repository_marker
