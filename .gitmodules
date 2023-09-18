@@ -1,6 +1,6 @@
-[submodule "BingoRes"]
-	path = BingoRes
-	url = git@github.com:kulaginwork/BingoRes.git
-[submodule "BingoCocos"]
-	path = BingoCocos
-	url = git@github.com:kulaginwork/BingoCocos.git
+[submodule "cocos2d"]
+	path = cocos2d
+	url = git@github.com:kulaginwork/cocos2d.git
+[submodule "Resources"]
+	path = Resources
+	url = git@github.com:kulaginwork/Resources.git
